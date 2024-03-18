@@ -5,28 +5,28 @@
     <title>AdminLTE 2 | Dashboard</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <!-- Bootstrap 3.3.2 -->
-    <link href="{{asset('AdminLTE-2.0.3/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css" />    
+    <link href="{{asset('/AdminLTE-2.0.3/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css" />    
     <!-- FontAwesome 4.3.0 -->
-    <link href="{{asset('AdminLTE-2.0.3/https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('/AdminLTE-2.0.3/https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css" />
     <!-- Ionicons 2.0.0 -->
-    <link href="{{asset('AdminLTE-2.0.3/http://code.ionicframework.com/ionicons/2.0.0/css/ionicons.min.css')}}" rel="stylesheet" type="text/css" />    
+    <link href="{{asset('/AdminLTE-2.0.3/http://code.ionicframework.com/ionicons/2.0.0/css/ionicons.min.css')}}" rel="stylesheet" type="text/css" />    
     <!-- Theme style -->
-    <link href="{{asset('AdminLTE-2.0.3/dist/css/AdminLTE.min.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('/AdminLTE-2.0.3/dist/css/AdminLTE.min.css')}}" rel="stylesheet" type="text/css" />
     <!-- AdminLTE Skins. Choose a skin from the css/skins 
          folder instead of downloading all of them to reduce the load. -->
-    <link href="{{asset('AdminLTE-2.0.3/dist/css/skins/_all-skins.min.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('/AdminLTE-2.0.3/dist/css/skins/_all-skins.min.css')}}" rel="stylesheet" type="text/css" />
     <!-- iCheck -->
-    <link href="{{asset('AdminLTE-2.0.3/plugins/iCheck/flat/blue.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('/AdminLTE-2.0.3/plugins/iCheck/flat/blue.css')}}" rel="stylesheet" type="text/css" />
     <!-- Morris chart -->
-    <link href="{{asset('AdminLTE-2.0.3/plugins/morris/morris.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('/AdminLTE-2.0.3/plugins/morris/morris.css')}}" rel="stylesheet" type="text/css" />
     <!-- jvectormap -->
-    <link href="{{asset('AdminLTE-2.0.3/plugins/jvectormap/jquery-jvectormap-1.2.2.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('/AdminLTE-2.0.3/plugins/jvectormap/jquery-jvectormap-1.2.2.css')}}" rel="stylesheet" type="text/css" />
     <!-- Date Picker -->
-    <link href="{{asset('AdminLTE-2.0.3/plugins/datepicker/datepicker3.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('/AdminLTE-2.0.3/plugins/datepicker/datepicker3.css')}}" rel="stylesheet" type="text/css" />
     <!-- Daterange picker -->
-    <link href="{{asset('AdminLTE-2.0.3/plugins/daterangepicker/daterangepicker-bs3.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('/AdminLTE-2.0.3/plugins/daterangepicker/daterangepicker-bs3.css')}}" rel="stylesheet" type="text/css" />
     <!-- bootstrap wysihtml5 - text editor -->
-    <link href="{{asset('AdminLTE-2.0.3/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('/AdminLTE-2.0.3/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css')}}" rel="stylesheet" type="text/css" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -63,7 +63,7 @@
                       <li><!-- start message -->
                         <a href="#">
                           <div class="pull-left">
-                            <img src="{{asset('AdminLTE-2.0.3/dist/img/user2-160x160.jpg')}}" class="img-circle" alt="User Image"/>
+                            <img src="{{asset('/AdminLTE-2.0.3/dist/img/user1-128x128.jpg')}}" class="img-circle" alt="User Image"/>
                           </div>
                           <h4>
                             Support Team
@@ -75,7 +75,7 @@
                       <li>
                         <a href="#">
                           <div class="pull-left">
-                            <img src="dist/img/user3-128x128.jpg" class="img-circle" alt="user image"/>
+                            <img src="{{asset('/AdminLTE-2.0.3/dist/img/user1-128x128.jpg')}}" class="img-circle" alt="user image"/>
                           </div>
                           <h4>
                             AdminLTE Design Team
@@ -87,7 +87,7 @@
                       <li>
                         <a href="#">
                           <div class="pull-left">
-                            <img src="dist/img/user4-128x128.jpg" class="img-circle" alt="user image"/>
+                            <img src="{{asset('/AdminLTE-2.0.3/dist/img/user1-128x128.jpg')}}" class="img-circle" alt="user image"/>
                           </div>
                           <h4>
                             Developers
@@ -99,7 +99,7 @@
                       <li>
                         <a href="#">
                           <div class="pull-left">
-                            <img src="dist/img/user3-128x128.jpg" class="img-circle" alt="user image"/>
+                            <img src="{{asset('/AdminLTE-2.0.3/dist/img/user1-128x128.jpg')}}" class="img-circle" alt="user image"/>
                           </div>
                           <h4>
                             Sales Department
@@ -111,7 +111,7 @@
                       <li>
                         <a href="#">
                           <div class="pull-left">
-                            <img src="dist/img/user4-128x128.jpg" class="img-circle" alt="user image"/>
+                            <img src="{{asset('/AdminLTE-2.0.3/dist/img/user1-128x128.jpg')}}" class="img-circle" alt="user image"/>
                           </div>
                           <h4>
                             Reviewers
@@ -240,13 +240,13 @@
               <!-- User Account: style can be found in dropdown.less -->
               <li class="dropdown user user-menu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                  <img src="dist/img/user2-160x160.jpg" class="user-image" alt="User Image"/>
+                  <img src="{{asset('/AdminLTE-2.0.3/dist/img/user1-128x128.jpg')}}" class="user-image" alt="User Image"/>
                   <span class="hidden-xs">Alexander Pierce</span>
                 </a>
                 <ul class="dropdown-menu">
                   <!-- User image -->
                   <li class="user-header">
-                    <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image" />
+                    <img src="{{asset('/AdminLTE-2.0.3/dist/img/user1-128x128.jpg')}}" class="img-circle" alt="User Image" />
                     <p>
                       Alexander Pierce - Web Developer
                       <small>Member since Nov. 2012</small>
@@ -286,7 +286,7 @@
           <!-- Sidebar user panel -->
           <div class="user-panel">
             <div class="pull-left image">
-              <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image" />
+              <img src="{{asset('/AdminLTE-2.0.3/dist/img/user1-128x128.jpg')}}" class="img-circle" alt="User Image" />
             </div>
             <div class="pull-left info">
               <p>Alexander Pierce</p>
@@ -547,7 +547,7 @@
                 <div class="box-body chat" id="chat-box">
                   <!-- chat item -->
                   <div class="item">
-                    <img src="dist/img/user4-128x128.jpg" alt="user image" class="online"/>
+                    <img src="{{asset('/AdminLTE-2.0.3/dist/img/user1-128x128.jpg')}}" alt="user image" class="online"/>
                     <p class="message">
                       <a href="#" class="name">
                         <small class="text-muted pull-right"><i class="fa fa-clock-o"></i> 2:15</small>
@@ -569,7 +569,7 @@
                   </div><!-- /.item -->
                   <!-- chat item -->
                   <div class="item">
-                    <img src="dist/img/user3-128x128.jpg" alt="user image" class="offline"/>
+                    <img src="{{asset('/AdminLTE-2.0.3/dist/img/user1-128x128.jpg')}}" alt="user image" class="offline"/>
                     <p class="message">
                       <a href="#" class="name">
                         <small class="text-muted pull-right"><i class="fa fa-clock-o"></i> 5:15</small>
@@ -582,7 +582,7 @@
                   </div><!-- /.item -->
                   <!-- chat item -->
                   <div class="item">
-                    <img src="dist/img/user2-160x160.jpg" alt="user image" class="offline"/>
+                    <img src="{{asset('/AdminLTE-2.0.3/dist/img/user1-128x128.jpg')}}" alt="user image" class="offline"/>
                     <p class="message">
                       <a href="#" class="name">
                         <small class="text-muted pull-right"><i class="fa fa-clock-o"></i> 5:30</small>
