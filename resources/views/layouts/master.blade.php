@@ -7,9 +7,9 @@
     <!-- Bootstrap 3.3.2 -->
     <link href="{{asset('/AdminLTE-2.0.3/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css" />    
     <!-- FontAwesome 4.3.0 -->
-    <link href="{{asset('/AdminLTE-2.0.3/https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css" />
     <!-- Ionicons 2.0.0 -->
-    <link href="{{asset('/AdminLTE-2.0.3/http://code.ionicframework.com/ionicons/2.0.0/css/ionicons.min.css')}}" rel="stylesheet" type="text/css" />    
+    <link href="{{asset('http://code.ionicframework.com/ionicons/2.0.0/css/ionicons.min.css')}}" rel="stylesheet" type="text/css" />    
     <!-- Theme style -->
     <link href="{{asset('/AdminLTE-2.0.3/dist/css/AdminLTE.min.css')}}" rel="stylesheet" type="text/css" />
     <!-- AdminLTE Skins. Choose a skin from the css/skins 
@@ -44,6 +44,7 @@
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top" role="navigation">
           <!-- Sidebar toggle button-->
+          
           <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
             <span class="sr-only">Toggle navigation</span>
           </a>
@@ -890,44 +891,44 @@
     </div><!-- ./wrapper -->
 
     <!-- jQuery 2.1.3 -->
-    <script src="{{asset('AdminLTE-2.0.3/plugins/jQuery/jQuery-2.1.3.min.js')}}"></script>
+    <script src="{{asset('/AdminLTE-2.0.3/plugins/jQuery/jQuery-2.1.3.min.js')}}"></script>
     <!-- jQuery UI 1.11.2 -->
-    <script src="{{asset('AdminLTE-2.0.3/http://code.jquery.com/ui/1.11.2/jquery-ui.min.js')}}" type="text/javascript"></script>
+    <script src="{{asset('http://code.jquery.com/ui/1.11.2/jquery-ui.min.js')}}" type="text/javascript"></script>
     <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
     <script>
       $.widget.bridge('uibutton', $.ui.button);
     </script>
     <!-- Bootstrap 3.3.2 JS -->
-    <script src="{{asset('AdminLTE-2.0.3/bootstrap/js/bootstrap.min.js')}}" type="text/javascript"></script>    
+    <script src="{{asset('/AdminLTE-2.0.3/bootstrap/js/bootstrap.min.js')}}" type="text/javascript"></script>    
     <!-- Morris.js charts -->
-    <script src="{{asset('AdminLTE-2.0.3/http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js')}}"></script>
-    <script src="{{asset('AdminLTE-2.0.3/plugins/morris/morris.min.js')}}" type="text/javascript"></script>
+    <script src="{{asset('http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js')}}"></script>
+    <script src="{{asset('/AdminLTE-2.0.3/plugins/morris/morris.min.js')}}" type="text/javascript"></script>
     <!-- Sparkline -->
-    <script src="{{asset('AdminLTE-2.0.3/plugins/sparkline/jquery.sparkline.min.js')}}" type="text/javascript"></script>
+    <script src="{{asset('/AdminLTE-2.0.3/plugins/sparkline/jquery.sparkline.min.js')}}" type="text/javascript"></script>
     <!-- jvectormap -->
-    <script src="{{asset('AdminLTE-2.0.3/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js')}}" type="text/javascript"></script>
-    <script src="{{asset('AdminLTE-2.0.3/plugins/jvectormap/jquery-jvectormap-world-mill-en.js')}}" type="text/javascript"></script>
+    <script src="{{asset('/AdminLTE-2.0.3/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js')}}" type="text/javascript"></script>
+    <script src="{{asset('/AdminLTE-2.0.3/plugins/jvectormap/jquery-jvectormap-world-mill-en.js')}}" type="text/javascript"></script>
     <!-- jQuery Knob Chart -->
-    <script src="{{asset('AdminLTE-2.0.3/plugins/knob/jquery.knob.js')}}" type="text/javascript"></script>
+    <script src="{{asset('/AdminLTE-2.0.3/plugins/knob/jquery.knob.js')}}" type="text/javascript"></script>
     <!-- daterangepicker -->
-    <script src="{{asset('AdminLTE-2.0.3/plugins/daterangepicker/daterangepicker.js')}}" type="text/javascript"></script>
+    <script src="{{asset('/AdminLTE-2.0.3/plugins/daterangepicker/daterangepicker.js')}}" type="text/javascript"></script>
     <!-- datepicker -->
-    <script src="{{asset('AdminLTE-2.0.3/plugins/datepicker/bootstrap-datepicker.js')}}" type="text/javascript"></script>
+    <script src="{{asset('/AdminLTE-2.0.3/plugins/datepicker/bootstrap-datepicker.js')}}" type="text/javascript"></script>
     <!-- Bootstrap WYSIHTML5 -->
-    <script src="{{asset('AdminLTE-2.0.3/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js')}}" type="text/javascript"></script>
+    <script src="{{asset('/AdminLTE-2.0.3/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js')}}" type="text/javascript"></script>
     <!-- iCheck -->
-    <script src="{{asset('AdminLTE-2.0.3/plugins/iCheck/icheck.min.js')}}" type="text/javascript"></script>
+    <script src="{{asset('/AdminLTE-2.0.3/plugins/iCheck/icheck.min.js')}}" type="text/javascript"></script>
     <!-- Slimscroll -->
-    <script src="{{asset('AdminLTE-2.0.3/plugins/slimScroll/jquery.slimscroll.min.js')}}" type="text/javascript"></script>
+    <script src="{{asset('/AdminLTE-2.0.3/plugins/slimScroll/jquery.slimscroll.min.js')}}" type="text/javascript"></script>
     <!-- FastClick -->
-    <script src="{{asset('AdminLTE-2.0.3/plugins/fastclick/fastclick.min.js')}}"></script>
+    <script src="{{asset('/AdminLTE-2.0.3/plugins/fastclick/fastclick.min.js')}}"></script>
     <!-- AdminLTE App -->
-    <script src="{{asset('AdminLTE-2.0.3/dist/js/app.min.js')}}" type="text/javascript"></script>
+    <script src="{{asset('/AdminLTE-2.0.3/dist/js/app.min.js')}}" type="text/javascript"></script>
 
     <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-    <script src="{{asset('AdminLTE-2.0.3/dist/js/pages/dashboard.js')}}" type="text/javascript"></script>
+    <script src="{{asset('/AdminLTE-2.0.3/dist/js/pages/dashboard.js')}}" type="text/javascript"></script>
 
     <!-- AdminLTE for demo purposes -->
-    <script src="{{asset('AdminLTE-2.0.3/dist/js/demo.js')}}" type="text/javascript"></script>
+    <script src="{{asset('/AdminLTE-2.0.3/dist/js/demo.js')}}" type="text/javascript"></script>
   </body>
 </html>
