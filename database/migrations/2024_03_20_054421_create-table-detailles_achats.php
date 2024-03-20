@@ -14,9 +14,9 @@ return new class extends Migration
         $table->increments('id_detail_achat');
         $table->integer('id_achat');
         $table->integer('id_produit');
-        $table->double('prix_achat');
-        $table->double('total');
-        $table->double('subtotal');
+        $table->integer('prix_achat');
+        $table->integer('total');
+        $table->integer('subtotal');
         $table->timestamps();
     });
     }

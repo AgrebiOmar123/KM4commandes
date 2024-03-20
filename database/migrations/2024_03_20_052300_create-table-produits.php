@@ -17,9 +17,9 @@ return new class extends Migration
             $table->integer('id_tva');
             $table->string('name_produit')->unique();
             $table->string('marque')->nullable();
-            $table->double('prix_achat');
+            $table->integer('prix_achat');
             $table->tinyinteger('discount')->default(0);
-            $table->double('prix_vente');
+            $table->integer('prix_vente');
             $table->double('stock');
             $table->timestamps();
         });

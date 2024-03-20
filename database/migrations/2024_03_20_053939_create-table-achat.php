@@ -15,7 +15,7 @@ return new class extends Migration
             $table->increments('id_achat');
             $table->integer('id_fournisseur');
             $table->integer('total_items');
-            $table->double('prix_total');
+            $table->integer('prix_total');
             $table->tinyInteger('discount')->default(0);
             $table->integer('etat_paiement')->default(0);
             $table->integer('id_user');

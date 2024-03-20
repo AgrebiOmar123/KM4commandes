@@ -15,10 +15,10 @@ return new class extends Migration
             $table->increments('id_detail_vente');
             $table->integer('id_vente');
             $table->integer('id_produit');
-            $table->double('prix_vente');
-            $table->double('total');
+            $table->integer('prix_vente');
+            $table->integer('total');
             $table->tinyInteger('discount')->default(0);
-            $table->double('subtotal');
+            $table->integer('subtotal');
             $table->timestamps();
         });
     }
