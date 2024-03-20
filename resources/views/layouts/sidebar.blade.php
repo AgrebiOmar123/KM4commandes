@@ -34,63 +34,68 @@
             <li class="header">Master</li>
             <li>
               <a href="#">
-              <i class="fa fa-dashboard"></i> <span>Categories</span> </i>
+              <i class="fa fa-cube"></i> <span>Categories</span> </i>
               </a>
             </li>
             <li>
               <a href="#">
-              <i class="fa fa-dashboard"></i> <span>Produits</span> </i>
+              <i class="fa fa-cubes"></i> <span>Produits</span> </i>
               </a>
             </li>
             <li>
               <a href="#">
-              <i class="fa fa-dashboard"></i> <span>Clients</span> </i>
+              <i class="fa fa-group"></i> <span>Clients</span> </i>
               </a>
             </li>
             <li>
               <a href="#">
-              <i class="fa fa-dashboard"></i> <span>Fournisseurs</span> </i>
+              <i class="fa fa-truck"></i> <span>Fournisseurs</span> </i>
               </a>
             </li>
             <li class="header">Transactions</li>
             <li>
             <li>
               <a href="#">
-              <i class="fa fa-dashboard"></i> <span>Depenses</span> </i>
+              <i class="fa fa-money"></i> <span>Depenses</span> </i>
               </a>
             </li>
             <li>
               <a href="#">
-              <i class="fa fa-dashboard"></i> <span>Achat</span> </i>
+              <i class="fa fa-download"></i> <span>Achat</span> </i>
               </a>
             </li>
             <li>
               <a href="#">
-              <i class="fa fa-dashboard"></i> <span>Ventes</span> </i>
+              <i class="fa fa-upload"></i> <span>Ventes</span> </i>
               </a>
             </li>
             <li>
               <a href="#">
-              <i class="fa fa-dashboard"></i> <span>Ancien Transactions</span> </i>
+              <i class="fa fa-cart-arrow-down"></i> <span>Ancien Transactions</span> </i>
               </a>
             </li>
             <li>
               <a href="#">
-              <i class="fa fa-dashboard"></i> <span>Recentes Transactions</span> </i>
+              <i class="fa fa-cart-arrow-down"></i> <span>Recentes Transactions</span> </i>
               </a>
             </li>
             <li class="header">Statistiques</li>
             <li>
             <li>
               <a href="#">
-              <i class="fa fa-dashboard"></i> <span>Rapports</span> </i>
+              <i class="fa fa-file-pdf-o"></i> <span>Rapports</span> </i>
               </a>
             </li>
             <li class="header">Parametres</li>
             <li>
             <li>
               <a href="#">
-              <i class="fa fa-dashboard"></i> <span>User</span> </i>
+              <i class="fa fa-users"></i> <span>User</span> </i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+              <i class="fa fa-cogs"></i> <span>Configuration</span> </i>
               </a>
             </li>
           </ul>
